@@ -1,2 +1,3 @@
-var pathname = window.location.pathname;
-console.log(pathname);
+$(function() {
+    $('#greet').text('Hello' + $(location).attr('href'));
+});
