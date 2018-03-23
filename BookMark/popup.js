@@ -1,3 +1,4 @@
-$(function() {
-    $('#greet').text('Hello' + $(location).attr('href'));
+chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
+    var url = tabs[0].url;
+    document.getElementById('greet').innerHTML = url;
 });
