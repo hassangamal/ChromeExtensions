@@ -14,7 +14,7 @@ chrome.tabs.query({ 'active': true, 'lastFocusedWindow': true }, function(tabs) 
         valueInputOption: 'RAW', // TODO: Update placeholder value.
 
         // How the input data should be inserted.
-        // insertDataOption: string, // TODO: Update placeholder value.
+         insertDataOption: string, // TODO: Update placeholder value.
     };
 
     var valueRangeBody = {
